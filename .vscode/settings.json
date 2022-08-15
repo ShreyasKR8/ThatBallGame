@@ -1,0 +1,8 @@
+{
+	"files.exclude": {
+		"D:/Unreal Engine 4/1.UE4 projects/ThatBallGame/.vscode": true,
+		"D:/Unreal Engine 4/1.UE4 projects/ThatBallGame/Content": true,
+		"D:/Unreal Engine 4/1.UE4 projects/ThatBallGame/Intermediate": true
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}

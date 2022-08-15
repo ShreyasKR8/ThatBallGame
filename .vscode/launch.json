@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "ThatBallGame (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ThatBallGame Win64 Debug Build",
+			"program": "D:\\Unreal Engine 4\\1.UE4 projects\\ThatBallGame\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ThatBallGame (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ThatBallGame Win64 DebugGame Build",
+			"program": "D:\\Unreal Engine 4\\1.UE4 projects\\ThatBallGame\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ThatBallGame (Development)",
+			"request": "launch",
+			"preLaunchTask": "ThatBallGame Win64 Development Build",
+			"program": "D:\\Unreal Engine 4\\1.UE4 projects\\ThatBallGame\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ThatBallGame (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "ThatBallGame Win64 Shipping Build",
+			"program": "D:\\Unreal Engine 4\\1.UE4 projects\\ThatBallGame\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ThatBallGame (Test)",
+			"request": "launch",
+			"preLaunchTask": "ThatBallGame Win64 Test Build",
+			"program": "D:\\Unreal Engine 4\\1.UE4 projects\\ThatBallGame\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ThatBallGameEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ThatBallGameEditor Win64 Debug Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\Unreal Engine 4\\1.UE4 projects\\ThatBallGame\\ThatBallGame.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ThatBallGameEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ThatBallGameEditor Win64 DebugGame Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"D:\\Unreal Engine 4\\1.UE4 projects\\ThatBallGame\\ThatBallGame.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ThatBallGameEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "ThatBallGameEditor Win64 Development Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\Unreal Engine 4\\1.UE4 projects\\ThatBallGame\\ThatBallGame.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"D:\\Unreal Engine 4\\1.UE4 projects\\ThatBallGame\\ThatBallGame.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.25"
+		}
+	]
+}
