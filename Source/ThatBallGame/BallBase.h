@@ -32,6 +32,22 @@ private:
     UPROPERTY(EditAnywhere, Category = BallPhysics)
     float RollTorque;
 
+	UPROPERTY(EditAnywhere)
+	float RotationRate = 10.0f;
+
+    UPROPERTY(EditAnywhere, Category = BallPhysics)
+    float JumpImpulse;
+
+    //For avoiding double jumps
+    bool bCanJump;
+
+    void LookLeftRightRate(float AxisValue);
+
+    void LookUpDownRate(float AxisValue);
+
+    //To set bCanJump to true upon hitting the floor
+    void NotifyHit(class UPrimitiveComponent * MyComp, AActor * Other, class UPrimitiveComponent * OtherComp,
+        bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult & Hit);
 
 
 public:
@@ -44,7 +60,7 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-    UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Score")
+    UPROPERTY(VisibleAnywhere, Category = "Score")
     int32 Score = 0;
     
 protected:
@@ -57,5 +73,7 @@ protected:
     /* To be called in SetupPlayerInputComponent to move the ball left or right */
     void MoveLeft(float Val);
 
+    /* To be called in SetupPlayerInputComponent to move the ball up */
+    void Jump();
 
 };

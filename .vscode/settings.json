@@ -1,8 +1,12 @@
 {
 	"files.exclude": {
-		"D:/Unreal Engine 4/1.UE4 projects/ThatBallGame/.vscode": true,
-		"D:/Unreal Engine 4/1.UE4 projects/ThatBallGame/Content": true,
-		"D:/Unreal Engine 4/1.UE4 projects/ThatBallGame/Intermediate": true
+		"C:/Unreal Engine 4/ThatBallGame/.git": true,
+		"C:/Unreal Engine 4/ThatBallGame/.vscode": true,
+		"C:/Unreal Engine 4/ThatBallGame/Content": true,
+		"C:/Unreal Engine 4/ThatBallGame/DerivedDataCache": true,
+		"C:/Unreal Engine 4/ThatBallGame/Documentation": true,
+		"C:/Unreal Engine 4/ThatBallGame/Intermediate": true,
+		"C:/Unreal Engine 4/ThatBallGame/Saved": true
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
