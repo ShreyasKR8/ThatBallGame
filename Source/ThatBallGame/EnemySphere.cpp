@@ -22,10 +22,24 @@ void AEnemySphere::Tick(float DeltaTime)
 {
     Super::Tick(DeltaTime);
 
+    Movement(DeltaTime);
+
+}
+
+void AEnemySphere::Movement(float DeltaTime) //Oscillate in X axis or Z axis
+{
     FVector NewLocation = GetActorLocation();
     float DeltaDistance = (FMath::Sin(RunningTime + DeltaTime) - FMath::Sin(RunningTime));
-    NewLocation.X += DeltaDistance * DistanceFactor;
+
+    if(MoveHorizontal)
+    {
+        NewLocation.X += DeltaDistance * DistanceFactor;
+    }
+    else
+    {
+        NewLocation.Z += DeltaDistance * DistanceFactor;
+    }
+
     RunningTime += DeltaTime;
     SetActorLocation(NewLocation);
-
 }

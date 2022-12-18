@@ -31,10 +31,14 @@ private:
     UPROPERTY(EditAnywhere, Category = "Movement")
     float DistanceFactor =  100.0f;
 
+    UPROPERTY(EditAnywhere, Category = "Movement")
+    bool MoveHorizontal =  true;
+
 public:
 
     AEnemySphere();
 
     virtual void Tick(float DeltaTime) override;
 
+    void Movement(float DeltaTime);
 };
