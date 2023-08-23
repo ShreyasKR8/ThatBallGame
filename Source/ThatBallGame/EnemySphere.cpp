@@ -31,7 +31,7 @@ void AEnemySphere::Movement(float DeltaTime) //Oscillate in X axis or Z axis
     FVector NewLocation = GetActorLocation();
     float DeltaDistance = (FMath::Sin(RunningTime + DeltaTime) - FMath::Sin(RunningTime));
 
-    if(MoveHorizontal)
+    if(MoveHorizontal)  //Move horizontal can be set in the editor
     {
         NewLocation.X += DeltaDistance * DistanceFactor;
     }

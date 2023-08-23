@@ -5,7 +5,7 @@
 			"name": "ThatBallGame (Debug)",
 			"request": "launch",
 			"preLaunchTask": "ThatBallGame Win64 Debug Build",
-			"program": "C:\\Unreal Engine 4\\ThatBallGame\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"program": "D:\\Unreal Engine 4\\1.UE4 projects\\ThatBallGame\\Binaries\\Win64\\UE4-Win64-Debug.exe",
 			"args": [
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.25",
@@ -18,7 +18,7 @@
 			"name": "ThatBallGame (DebugGame)",
 			"request": "launch",
 			"preLaunchTask": "ThatBallGame Win64 DebugGame Build",
-			"program": "C:\\Unreal Engine 4\\ThatBallGame\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"program": "D:\\Unreal Engine 4\\1.UE4 projects\\ThatBallGame\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
 			"args": [
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.25",
@@ -31,7 +31,7 @@
 			"name": "ThatBallGame (Development)",
 			"request": "launch",
 			"preLaunchTask": "ThatBallGame Win64 Development Build",
-			"program": "C:\\Unreal Engine 4\\ThatBallGame\\Binaries\\Win64\\UE4.exe",
+			"program": "D:\\Unreal Engine 4\\1.UE4 projects\\ThatBallGame\\Binaries\\Win64\\UE4.exe",
 			"args": [
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.25",
@@ -44,7 +44,7 @@
 			"name": "ThatBallGame (Shipping)",
 			"request": "launch",
 			"preLaunchTask": "ThatBallGame Win64 Shipping Build",
-			"program": "C:\\Unreal Engine 4\\ThatBallGame\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"program": "D:\\Unreal Engine 4\\1.UE4 projects\\ThatBallGame\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
 			"args": [
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.25",
@@ -57,7 +57,7 @@
 			"name": "ThatBallGame (Test)",
 			"request": "launch",
 			"preLaunchTask": "ThatBallGame Win64 Test Build",
-			"program": "C:\\Unreal Engine 4\\ThatBallGame\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"program": "D:\\Unreal Engine 4\\1.UE4 projects\\ThatBallGame\\Binaries\\Win64\\UE4-Win64-Test.exe",
 			"args": [
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.25",
@@ -72,7 +72,7 @@
 			"preLaunchTask": "ThatBallGameEditor Win64 Debug Build",
 			"program": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
 			"args": [
-				"C:\\Unreal Engine 4\\ThatBallGame\\ThatBallGame.uproject"
+				"D:\\Unreal Engine 4\\1.UE4 projects\\ThatBallGame\\ThatBallGame.uproject"
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.25",
 			"stopAtEntry": false,
@@ -86,7 +86,7 @@
 			"preLaunchTask": "ThatBallGameEditor Win64 DebugGame Build",
 			"program": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
 			"args": [
-				"C:\\Unreal Engine 4\\ThatBallGame\\ThatBallGame.uproject"
+				"D:\\Unreal Engine 4\\1.UE4 projects\\ThatBallGame\\ThatBallGame.uproject"
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.25",
 			"stopAtEntry": false,
@@ -100,7 +100,7 @@
 			"preLaunchTask": "ThatBallGameEditor Win64 Development Build",
 			"program": "C:\\Program Files\\Epic Games\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor.exe",
 			"args": [
-				"C:\\Unreal Engine 4\\ThatBallGame\\ThatBallGame.uproject"
+				"D:\\Unreal Engine 4\\1.UE4 projects\\ThatBallGame\\ThatBallGame.uproject"
 			],
 			"cwd": "C:\\Program Files\\Epic Games\\UE_4.25",
 			"stopAtEntry": false,
@@ -117,7 +117,7 @@
 			"args": [
 				"-projectfiles",
 				"-vscode",
-				"-project=\"C:\\Unreal Engine 4\\ThatBallGame\\ThatBallGame.uproject\"",
+				"-project=\"D:\\Unreal Engine 4\\1.UE4 projects\\ThatBallGame\\ThatBallGame.uproject\"",
 				"-game",
 				"-engine"
 			],
